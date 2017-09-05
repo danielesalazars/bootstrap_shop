@@ -1,0 +1,12 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header-container,
+.btn-platzi{
+	background-color: #99c84a;
+	color: #fff;
+}
+.btn-platzi:hover{
+	color: #8ab542;
+}
