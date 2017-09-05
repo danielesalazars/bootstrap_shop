@@ -2,11 +2,10 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-#header-container,
-.btn-platzi{
+#header-container{
 	background-color: #99c84a;
 	color: #fff;
 }
-.btn-platzi:hover{
-	color: #8ab542;
+.btn-search-xs{
+	padding: 2px 0;
 }
