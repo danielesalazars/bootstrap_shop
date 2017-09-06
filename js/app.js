@@ -26,3 +26,15 @@ $form.submit(function(event) {
 	$formGroup.append(el)
 
 })
+
+function mostrarModal(){
+	var noMostrarModal = JSON.parse(localStorage.noMostrarModal);
+
+	if (!noMostrarModal) {
+		$('#modalOferta').modal()
+	}
+
+	$('#btnNoRegistrar').click(function(event) {
+		localStorage.noMostrarModal = true
+	})
+}
