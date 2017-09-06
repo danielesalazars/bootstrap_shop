@@ -13,3 +13,12 @@ body{
 #info-container h4{
 	padding: 2em 0;
 }
+#footer-container{
+	background-color: #1c3643;
+	color: #fff;
+	padding: 3em 0;
+}
+#footer-container li a{
+	color: #fff;
+	padding: 0;
+}
